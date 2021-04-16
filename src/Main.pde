@@ -1,5 +1,3 @@
-//https://en.wikipedia.org/wiki/Leibniz_formula_for_%CF%80
-
 double pi;
 double target=3.1415926535897932;
 int INDEX=1;
