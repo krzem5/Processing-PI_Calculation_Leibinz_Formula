@@ -22,7 +22,7 @@ void draw(){
 		pi-=(double)4/(idx*2-1);
 	}
 	idx++;
-	if (Double.toString(pi)==Double.toString(TARGET_PI_VALUE)){
+	if (Double.toString(pi).equals(Double.toString(TARGET_PI_VALUE))){
 		noLoop();
 	}
 	noFill();
